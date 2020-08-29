@@ -5,12 +5,10 @@ var total = 0
 function calc(qtdItens) {
     console.log("Quase Dois - Tabela de preços")
 
-    while (qtdItens <= 50) {
-        let itens = qtdItens--
-        total = itens * 1.99
-
-        console.log(`${itens} itens dá um total de `, total)
-
+    while (qtdItens <= 50 && qtdItens >= 1) {
+        qtdItens = qtdItens-1
+        total = qtdItens * 1.99
+        console.log(`${qtdItens} itens dá um total de R$`, total)
     }
     return
 }
