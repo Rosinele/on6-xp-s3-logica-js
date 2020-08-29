@@ -4,6 +4,7 @@ const numero = parseFloat(readline.question("Digite um valor:"))
 
 var i = numero
 
+
 let valor =0
 
 function calc(numero) {
